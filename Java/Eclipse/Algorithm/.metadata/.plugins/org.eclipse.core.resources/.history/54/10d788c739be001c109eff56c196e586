@@ -1,7 +1,0 @@
-package leetcode.tree.problem199;
-
-public class Solution {
-	public List<Integer> rightSideView(TreeNode root) {
-
-    }
-}
