@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         postorderTraversal(buildTree(new int[] {6, 8, 7, 4, 5, 1, 3, 2}, new int[] {8, 5, 4, 7, 6, 3, 2, 1}));
     }
-
+    //层序遍历
     static void bfs(Node root) {
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
@@ -25,6 +25,7 @@ public class Main {
         }
     }
 
+    //根据中序后续构造二叉树
     static public Node buildTree(int[] inorder, int[] postorder) {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for (int i = 0; i < inorder.length; i++) {

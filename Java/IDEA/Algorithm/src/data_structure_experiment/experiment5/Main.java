@@ -14,8 +14,9 @@ public class Main {
                 {0, 0, 0, 0, 0, 7, 4}
         });
         Triplet B =  tripleTranspose(triplet);
+        System.out.println("转置前：");
         print(triplet);
-        System.out.println();
+        System.out.println("转置后：");
         print(B);
 
     }
@@ -74,8 +75,8 @@ public class Main {
         for (int i = 1; i < n; ++i) {
             cpot[i] = cpot[i - 1] + num[i - 1];
         }
-        System.out.println(Arrays.toString(num));
-        System.out.println(Arrays.toString(cpot));
+//        System.out.println(Arrays.toString(num));
+//        System.out.println(Arrays.toString(cpot));
         for (int i = 0; i < A.data.length; ++i) {
             int r = A.data[i][0];
             int c = A.data[i][1];
