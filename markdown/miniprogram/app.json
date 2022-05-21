@@ -1,0 +1,60 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/add/add",
+        "pages/classification/classification",
+        "pages/qualityArticles/qualityArticles",
+        "pages/Statistics/Statistics",
+        "pages/light/light",
+        "pages/dark/dark"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "云开发 QuickStart",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#fff",
+        "selectedColor": "#fff",
+        "backgroundColor": "#000",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "images/sun--default.png",
+                "selectedIconPath": "images/sun--current.png"
+            },
+            {
+                "pagePath": "pages/add/add",
+                "text": "添加文章",
+                "iconPath": "images/moon--default.png",
+                "selectedIconPath": "images/moon--current.png"
+            },
+            {
+                "pagePath": "pages/classification/classification",
+                "text": "分类",
+                "iconPath": "images/sun--default.png",
+                "selectedIconPath": "images/sun--current.png"
+            },
+            {
+                "pagePath": "pages/qualityArticles/qualityArticles",
+                "text": "优质文章",
+                "iconPath": "images/moon--default.png",
+                "selectedIconPath": "images/moon--current.png"
+            },
+            {
+                "pagePath": "pages/Statistics/Statistics",
+                "text": "统计",
+                "iconPath": "images/sun--default.png",
+                "selectedIconPath": "images/sun--current.png"
+            }
+        ]
+    },
+    "useExtendedLib": {
+        "weui": true
+    },
+    "sitemapLocation": "sitemap.json",
+    "style": "v2"
+
+}

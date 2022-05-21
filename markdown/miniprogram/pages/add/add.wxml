@@ -1,0 +1,79 @@
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+    <view class="weui-form">
+        <view class="weui-form__control-area">
+            <view class="weui-cells__group weui-cells__group_form">
+                <view class="weui-cells__title">文章上传</view>
+                <view class="weui-cells">
+                    <view class="weui-cell weui-cell_active">
+                        <view class="weui-cell__hd"><label class="weui-label">标题</label></view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" placeholder="请输入文章标题" placeholder-class="weui-input__placeholder" bindinput="bindKeyInput" data-type='{{1}}' />
+                        </view>
+                    </view>
+
+                    <view class="weui-cell weui-cell_active">
+                        <view class="weui-cell__hd"><label class="weui-label">封面</label></view>
+                        <view class="weui-cell__bd">
+                            <button type="primary" bindtap="chooseFile" data-type='{{1}}'>请选择封面</button>
+                        </view>
+                    </view>
+                    <view class="weui-cell weui-cell_active">
+                        <view class="weui-cell__hd"><label class="weui-label">文章</label></view>
+                        <view class="weui-cell__bd">
+                            <button type="primary" bindtap="chooseFile" data-type='{{2}}'>请选择文章</button>
+                        </view>
+                    </view>
+
+                    <view class="weui-cell weui-cell_active">
+                        <view class="weui-cell__hd">
+                            <label class="weui-label">url</label>
+                        </view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" placeholder="填写文章标题url" placeholder-class="weui-input__placeholder" bindinput="bindKeyInput" data-type='{{2}}' />
+                        </view>
+                    </view>
+                    <view class="weui-cell weui-cell_active">
+                        <view class="weui-cell__hd">
+                            <label class="weui-label">摘要</label>
+                        </view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" placeholder="填写本人文章摘要" placeholder-class="weui-input__placeholder" bindinput="bindKeyInput" data-type='{{3}}' />
+                        </view>
+                    </view>
+                    <view class="weui-cell weui-cell_active">
+                        <view class="weui-cell__hd">
+                            <label class="weui-label">作者</label>
+                        </view>
+                        <view class="weui-cell__bd">
+                            <input class="weui-input" placeholder="填写作者" placeholder-class="weui-input__placeholder" bindinput="bindKeyInput" data-type='{{4}}' />
+                        </view>
+                    </view>
+                    <view class="weui-cell weui-cell_active weui-cell_select weui-cell_select-after">
+                        <view class="weui-cell__hd">
+                            <label class="weui-label" style="width: 3em;">标签</label>
+                        </view>
+                        <view class="weui-cell__bd">
+                            <picker aria-role="combobox" bindchange="bindPicker3Change" range="{{tags}}" bindchange="bindAuthorChange">
+                                <view class="weui-select">{{tag}}</view>
+                            </picker>
+                        </view>
+                    </view>
+                    <view class="weui-cell weui-cell_active">
+                        <view class="weui-cell__hd">
+                            <view class="weui-label" id="js_date" aria-hidden="true">日期</view>
+                        </view>
+                        <view class="weui-cell__bd">
+                            <picker mode="date" aria-role="combobox" aria-labelledby="js_date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+                                <view class="weui-input">{{date}}</view>
+                            </picker>
+                        </view>
+                    </view>
+                    <view class="weui-btn-area">
+                        <button class="weui-btn" type="primary" bindtap="submit">确定</button>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

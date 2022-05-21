@@ -1,0 +1,5 @@
+/**index.wxss**/
+page {
+    background-color: #000;
+}
+

@@ -1,0 +1,8 @@
+<!--pages/Statistics/Statistics.wxml-->
+<view class="loading" wx:if="{{isLoading}}">
+    <image class="loading__icon" src="../../images/loading.svg" ></image>
+</view>
+
+<view class="run_charts_box">
+    <canvas canvas-id="canvas1" class = "canvas"></canvas>
+</view>
