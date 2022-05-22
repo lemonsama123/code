@@ -7,8 +7,9 @@
         "pages/Statistics/Statistics",
         "pages/light/light",
         "pages/dark/dark",
-        "pages/list/list"
-    ],
+        "pages/list/list",
+        "pages/bar/index"
+        ],
     "window": {
         "backgroundColor": "#F6F6F6",
         "backgroundTextStyle": "light",

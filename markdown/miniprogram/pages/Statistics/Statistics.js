@@ -1,5 +1,4 @@
 // pages/Statistics/Statistics.js
-
 let Charts = require('../../wxcharts/wxcharts-min');
 
 Page({
@@ -7,10 +6,13 @@ Page({
     /**
      * 页面的初始数据
      */
+
     data: {
-        type: 2,
+        type: 1,
         isLoading: true,
-        docs: []
+        docs: [],
+        tags: ['Java', 'C/C++', 'Python', 'C#', 'Go', 'PHP', 'Shell', '算法', 'Vue'],
+        series1: [{ name: '一班', data: 50 }]
     },
 
     /**
@@ -41,15 +43,73 @@ Page({
     },
 
     onLoad(options) {
-        this.runLlineCanva();
+        this.getData()
+        this.init(this.data.series1)
+
         this.setData({
             isLoading: false
         })
-        this.getData()
+
+        this.runLlineCanva();
         console.log(this.data.docs)
     },
 
+    init: function (series1) {
+        const db = wx.cloud.database()
+        console.log(this.data.series1)
+        console.log("this.data.series1")
+        let series2 = [{ name: '一班', data: 50 }, { name: '二班', data: 30 }, { name: '三班', data: 20 }, { name: '四班', data: 18 }, { name: '五班', data: 8 }];
+        // let series2 = [];
+
+        let index = 0;
+
+        for (let i = 0; i < this.data.tags.length; i++) {
+            console.log(this.data.tags[i])
+
+            db.collection('docs').where({
+                tag: this.data.tags[i]
+            }).count().then(res => {
+                // console.log(res.total)
+                // console.log(res.total)
+                if (res.total != 0) {
+                    // series1.splice(1, 0, { name: this.data.tags[i], data: res.total });
+                    series1.push({ name: this.data.tags[i], data: res.total })
+                    ++index;
+                }
+                // series2.push(res.total)
+            }).catch(err => {
+            })
+        }
+        this.runLlineCanva()
+    },
+
     runLlineCanva: function () {
+        const db = wx.cloud.database()
+
+        // console.log(series1)
+        // let series2 = [{ name: '一班', data: 50 }, { name: '二班', data: 30 }, { name: '三班', data: 20 }, { name: '四班', data: 18 }, { name: '五班', data: 8 }];
+        // // let series2 = [];
+
+        // let index = 0;
+
+        // for (let i = 0; i < this.data.tags.length; i++) {
+        //     console.log(this.data.tags[i])
+
+        //     db.collection('docs').where({
+        //         tag: this.data.tags[i]
+        //     }).count().then(res => {
+        //         // console.log(res.total)
+        //         // console.log(res.total)
+        //         if (res.total != 0) {
+        //             series1.splice(1, 0, { name: this.data.tags[i], data: res.total });
+        //             // series1.push({ name: this.data.tags[i], data: res.total })
+        //             ++index;
+        //         }
+        //         // series2.push(res.total)
+        //     }).catch(err => {
+        //     })
+        // }
+        // console.log(series2)
         let windowWidth = 320;
         try {
             let res = wx.getSystemInfoSync();
@@ -57,37 +117,34 @@ Page({
         } catch (e) {
             // do something when get system info failed
         }
-        let series1 = [];
-        // for (let i = 0; i < this.data.docs.length; ++i) {
-        //     console.log(i)
-        //     series1.push({ name: '一班', data: 50 });
-        // }
-        let series2 = [{ name: '一班', data: 50 }, { name: '二班', data: 30 }, { name: '三班', data: 20 }, { name: '四班', data: 18 }, { name: '五班', data: 8 }];
+
+
+        // console.log(series1)
         new Charts({
             canvasId: 'canvas1',
             type: 'pie',
-            series: series2,
+            series: this.data.series1,
             width: windowWidth - 10,
-            height: windowWidth - 10,
+            height: windowWidth - 20,
             dataLabel: true,
         });
-        new Charts({
-            canvasId: 'canvas2',
-            type: 'column',
-            categories: ['一班', '二班', '三班', '四班', '五班'],
-            series: [{
-                name: '成交量1',
-                data: [15, 20, 45, 37, 4, 80]
-            }],
-            yAxis: {
-                format: function (val) {
-                    return val + '';
-                }
-            },
-            width: windowWidth - 10,
-            height: windowWidth - 10,
-            dataLabel: true,
-        });
+        // new Charts({
+        //     canvasId: 'canvas2',
+        //     type: 'column',
+        //     categories: this.data.tags,
+        //     series: [{
+        //         name: '成交量1',
+        //         data: series2
+        //     }],
+        //     yAxis: {
+        //         format: function (val) {
+        //             return val + '';
+        //         }
+        //     },
+        //     width: windowWidth - 10,
+        //     height: windowWidth - 10,
+        //     dataLabel: true,
+        // });
     },
 
 
