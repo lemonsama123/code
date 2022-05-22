@@ -1,12 +1,11 @@
 // pages/index/index.js
 wx.cloud.init()
 Page({
-
-
     /**
      * 页面的初始数据
      */
     data: {
+        key: '',
         docs: []
     },
 
@@ -25,8 +24,12 @@ Page({
 
 
     getData() {
+        console.log(this.data.key)
         wx.cloud.callFunction({
-            name: 'getData'
+            name: 'getDataWithFilter',
+            data: {
+                _key: this.data.key
+            }
         }).then(res => {
             console.log(res)
             this.setData({
@@ -34,11 +37,20 @@ Page({
             })
         }).catch(err => {
             console.log('test3')
-            console.log(err)
+            // console.log(err)
         })
+        // console.log("this.data.docs")
+        // console.log(this.data.docs)
     },
+
     onLoad(options) {
-        this.getData()
+        this.setData({
+            key: options.key
+        })
+        this.getData(options.key)
+
+        // console.log(options.key)
+        // console.log(this.data.docs)
     },
 
     onClick(e) {

@@ -1,2 +1,15 @@
-<!--pages/classification/classification.wxml-->
-<text>pages/classification/classification.wxml</text>
+<page-meta root-font-size="system" />
+<view class="page" data-weui-theme="{{theme}}" data-weui-mode="{{mode}}">
+    <!-- <view class="page__hd">
+        <view class="page__title">Grid</view>
+        <view class="page__desc">九宫格</view>
+    </view> -->
+    <view class="weui-grids">
+        <navigator wx:for="{{category}}" wx:key="index" class="weui-grid" aria-role="button" url="../list/list?key={{category[index].name}}">
+            <view class="weui-grid__icon">
+                <image src="{{item.icon}}"></image>
+            </view>
+            <view class="weui-grid__label">{{item.name}}</view>
+        </navigator>
+    </view>
+</view>
