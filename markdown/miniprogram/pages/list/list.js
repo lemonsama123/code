@@ -10,13 +10,6 @@ Page({
     },
 
 
-    onPullDownRefresh: function () {
-        console.log("下拉刷新")
-    },
-
-    onReachBottom: function () {
-        console.log("下拉刷新")
-    },
 
     /**
      * 生命周期函数--监听页面加载
@@ -24,6 +17,9 @@ Page({
 
 
     getData() {
+        wx.showLoading({
+            title: '加载中...',
+          })
         console.log(this.data.key)
         wx.cloud.callFunction({
             name: 'getDataWithFilter',
@@ -41,6 +37,8 @@ Page({
         })
         // console.log("this.data.docs")
         // console.log(this.data.docs)
+
+        wx.hideLoading()
     },
 
     onLoad(options) {
@@ -92,9 +90,10 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh() {
-
+        console.log("下拉刷新")
+        this.getData()
+        wx.stopPullDownRefresh()
     },
-
     /**
      * 页面上拉触底事件的处理函数
      */
