@@ -7,8 +7,6 @@ let Charts = require('../../wxcharts/wxcharts-min');
 let series1 = [{ name: '一班', data: 50 }, { name: '二班', data: 30 }]
 
 
-
-
 Page({
 
     /**
@@ -17,10 +15,11 @@ Page({
 
     data: {
         type: 1,
+        title1 : '扇形图',
+        title2 : '柱形图',
         isLoading: true,
         docs: [],
         tags: ['Java', 'C/C++', 'Python', 'C#', 'Go', 'PHP', 'Shell', '算法', 'Vue'],
-
     },
 
     /**
@@ -155,12 +154,12 @@ Page({
             type: 'column',
             categories: this.data.tags,
             series: [{
-                name: '成交量1',
+                name: '文章数量',
                 data: [2, 2, 3, 4, 4, 5, 6, 7, 9]
             }],
             yAxis: {
                 format: function (val) {
-                    return val + '';
+                    return val + '篇';
                 }
             },
             width: windowWidth - 10,

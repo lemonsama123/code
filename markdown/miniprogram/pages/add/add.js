@@ -13,11 +13,6 @@ Page({
         tag: 'Java',
         summary: '',
         tags: ['Java', 'C/C++', 'Python', 'C#', 'Go', 'PHP', 'Shell', '算法', 'Vue'],
-        datas: [
-            [1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
-            [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-            [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
-        ],
     },
 
     /**
@@ -127,43 +122,13 @@ Page({
         }).then(res => {
             console.log('成功了')
             console.log(res)
+            wx.showToast({
+                title: '添加成功',
+            })
         }).catch(err => {
             console.log('失败了')
         })
     },
-
-
-    // formSubmit(e) {
-    //     // console.log(e.detail.value.title)
-    //     // console.log(e.detail.value.url)
-    //     // wx.cloud.callFunction({
-    //     //     name: 'add',
-    //     //     data: {
-    //     //         title: e.detail.value.title,
-    //     //         url: e.detail.value.url
-    //     //     }
-    //     // }).then(res => {
-    //     //     console.log('成功了')
-    //     //     console.log(res)
-    //     // }).catch(err => {
-    //     //     console.log('失败了')
-    //     // })
-
-    //     // console.log(e.detail.value.title)
-    //     // console.log(e.detail.value.url)
-    //     wx.cloud.callFunction({
-    //         name: 'add',
-    //         data: {
-    //             title: e.detail.value.title,
-    //             url: this.data._url
-    //         }
-    //     }).then(res => {
-    //         console.log('成功了')
-    //         console.log(res)
-    //     }).catch(err => {
-    //         console.log('失败了')
-    //     })
-    // },
 
     /**
      * 生命周期函数--监听页面初次渲染完成

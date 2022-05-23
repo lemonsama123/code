@@ -18,8 +18,8 @@ Page({
 
     getData() {
         wx.showLoading({
-            title: '加载中...',
-          })
+            title: '加载中...'
+        })
         console.log(this.data.key)
         wx.cloud.callFunction({
             name: 'getDataWithFilter',
@@ -46,9 +46,6 @@ Page({
             key: options.key
         })
         this.getData(options.key)
-
-        // console.log(options.key)
-        // console.log(this.data.docs)
     },
 
     onClick(e) {
