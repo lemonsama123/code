@@ -23,8 +23,6 @@ Page({
                 docs: res.result.data
             })
         }).catch(err => {
-            // console.log('test3')
-            // console.log(err)
         })
         wx.hideLoading()
     },
