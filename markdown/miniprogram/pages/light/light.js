@@ -7,8 +7,6 @@ Page({
     },
     onLoad(options) {
         const _ts = this;
-        console.log(options)
-        console.log(options.url)
         app.getText(options.url, res => {
             let obj = app.towxml(res.data, 'markdown', {
                 // theme:'dark',

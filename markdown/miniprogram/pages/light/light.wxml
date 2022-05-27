@@ -6,4 +6,4 @@
 </view>
 
  <!-- 使用towxml -->
-<towxml nodes="{{article}}"/>wx:if="{{isLoading}}"
+<towxml nodes="{{article}}" wx:if="{{!isLoading}}"/>

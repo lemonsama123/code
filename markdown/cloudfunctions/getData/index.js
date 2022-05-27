@@ -12,7 +12,6 @@ const _ = db.command
 // 云函数入口函数
 exports.main = async (event, context) => {
     try {
-        // console.log(db.collection('docs').get())
         return db.collection('docs').get()
     } catch (e) {
         console.log(e)

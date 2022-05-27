@@ -7,7 +7,3 @@ image {
     overflow: hidden;
     width: 320px;
 }
-
-/* .weui-grid__icon image {
-   
-} */

@@ -26,6 +26,7 @@ Page({
         })
         wx.hideLoading()
     },
+    
     onLoad(options) {
         this.getData()
     },
@@ -69,7 +70,6 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh() {
-        // console.log("下拉刷新")
         this.getData()
         wx.stopPullDownRefresh()
     },

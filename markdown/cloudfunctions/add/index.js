@@ -15,7 +15,6 @@ exports.main = async (event, context) => {
         data: {
             title: event.title,
             url: event.url,
-
             cover: event.cover,
             title: event.title,
             url: event.url,
