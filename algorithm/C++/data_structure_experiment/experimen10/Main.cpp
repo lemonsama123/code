@@ -1,13 +1,13 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 const int N = 10e6 + 10;
 int n;
-int q[N];
+int a[N], b[N];
 int temp[N];
 
-void mergeSort(int q[], int l, int r) {
+void mergeSort(int q[], int l, int r) { //归并排序
     if (l >= r) {
         return;
     }
@@ -42,7 +42,7 @@ void mergeSort(int q[], int l, int r) {
     }
 }
 
-void quickSort(int q[], int l, int r) {
+void quickSort(int q[], int l, int r) { //快速排序
     if (l >= r) {
         return;
     }
@@ -60,15 +60,48 @@ void quickSort(int q[], int l, int r) {
     quickSort(q, j + 1, r);
 }
 
+void randomArray(int n, int l, int r) {//生成随机数组
+	srand(time(0));  
+	for(int i = 0; i < n; i++){
+        int x = rand() % (r - l + 1) + l;
+        a[i] = b[i] = x;
+	}
+}
+
+void printArray(int *a, int n, ofstream& outfile) { //打印数组
+    cout << "[";    
+	for(int i = 0; i < n; i++) {
+        outfile << a[i] << " ";
+		// printf("%d ",);
+    }
+	outfile << "]" << endl;
+}
+
 int main() {
-    
-    scanf("%d", &n);
-    for (int i = 0; i < n; ++i) {
-        scanf("%d", &q[i]);
+    srand(time(0));
+    int n = N;
+    randomArray(n, 10, 100000);
+    clock_t start, finish;
+    ofstream outfile;
+    outfile.open("res.out");
+
+    for (int i = 1; i <= 2000; ++i) {
+        // printf(, i);
+        outfile << "第" << i << "次测试：" << endl;
+        // printArray(a, n, outfile);
+        start = clock();
+        quickSort(a, 0, n);
+        finish = clock();
+        // printArray(a, n, outfile);
+        outfile << "快速排序花费时间：" << finish - start  << endl;
+        // printArray(b, n, outfile);
+        start = clock();
+        mergeSort(b, 0, n - 1);
+        finish = clock();
+        outfile << "归并排序花费时间：" << finish - start << endl << endl;
+        // printArray(b, n, outfile);
     }
-    quickSort(q, 0, n - 1);
-    for (int i = 0; i < n; ++i) {
-        printf("%d ", q[i]);
-    }
+    outfile.close();
+    system("pause");
     return 0;
 }
