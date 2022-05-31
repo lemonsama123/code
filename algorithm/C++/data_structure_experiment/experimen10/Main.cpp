@@ -7,20 +7,16 @@ int n;
 int a[N], b[N];
 int temp[N];
 
-void mergeSort(int q[], int l, int r) { //å½’å¹¶æ’åº
+void mergeSort(int q[], int l, int r) { //¹é²¢ÅÅĞò
     if (l >= r) {
         return;
     }
-
     int mid = (l + r) >> 1;
-
     mergeSort(q, l, mid);
     mergeSort(q, mid + 1, r);
-
     int k = 0;
     int i = l;
     int j = mid + 1;
-
     while (i <= mid && j <= r) {
         if (q[i] < q[j]) {
             temp[k++] = q[i++];
@@ -28,21 +24,18 @@ void mergeSort(int q[], int l, int r) { //å½’å¹¶æ’åº
             temp[k++] = q[j++];
         }
     }
-
     while (i <= mid) {
         temp[k++] = q[i++];
     }
-
     while (j <= r) {
         temp[k++] = q[j++];
     }
-	
     for (i = l, j = 0; i <= r; i++, j++) {
         q[i] = temp[j];
     }
 }
 
-void quickSort(int q[], int l, int r) { //å¿«é€Ÿæ’åº
+void quickSort(int q[], int l, int r) { //¿ìËÙÅÅĞò
     if (l >= r) {
         return;
     }
@@ -60,7 +53,7 @@ void quickSort(int q[], int l, int r) { //å¿«é€Ÿæ’åº
     quickSort(q, j + 1, r);
 }
 
-void randomArray(int n, int l, int r) {//ç”Ÿæˆéšæœºæ•°ç»„
+void randomArray(int n, int l, int r) {//Éú³ÉËæ»úÊı×é
 	srand(time(0));  
 	for(int i = 0; i < n; i++){
         int x = rand() % (r - l + 1) + l;
@@ -68,40 +61,33 @@ void randomArray(int n, int l, int r) {//ç”Ÿæˆéšæœºæ•°ç»„
 	}
 }
 
-void printArray(int *a, int n, ofstream& outfile) { //æ‰“å°æ•°ç»„
+void printArray(int *a, int n, ofstream& outfile) { //´òÓ¡Êı×é
     cout << "[";    
 	for(int i = 0; i < n; i++) {
         outfile << a[i] << " ";
-		// printf("%d ",);
     }
 	outfile << "]" << endl;
 }
 
 int main() {
     srand(time(0));
-    int n = N;
-    randomArray(n, 10, 100000);
     clock_t start, finish;
-    ofstream outfile;
-    outfile.open("res.out");
-
-    for (int i = 1; i <= 2000; ++i) {
-        // printf(, i);
-        outfile << "ç¬¬" << i << "æ¬¡æµ‹è¯•ï¼š" << endl;
-        // printArray(a, n, outfile);
+    double t1 = 0;
+    double t2 = 0;
+    for (int i = 1; i <= 2000000000; ++i) {
+        int n = rand() % (1000000000 - 1 + 1) + 1;
+        randomArray(n, 0, 1000000000);
         start = clock();
-        quickSort(a, 0, n);
+        quickSort(a, 0, n - 1);
         finish = clock();
-        // printArray(a, n, outfile);
-        outfile << "å¿«é€Ÿæ’åºèŠ±è´¹æ—¶é—´ï¼š" << finish - start  << endl;
-        // printArray(b, n, outfile);
+        t1 += (double)(finish - start) / CLOCKS_PER_SEC;
         start = clock();
         mergeSort(b, 0, n - 1);
         finish = clock();
-        outfile << "å½’å¹¶æ’åºèŠ±è´¹æ—¶é—´ï¼š" << finish - start << endl << endl;
-        // printArray(b, n, outfile);
+        t2 += (double)(finish - start) / CLOCKS_PER_SEC;
     }
-    outfile.close();
+    cout << "¿ìËÙÅÅĞòÆ½¾ùÊ±¼ä£º" << t1 / 2000000000. << "ms" << endl;
+    cout << "¹é²¢ÅÅĞòÆ½¾ùÊ±¼ä£º" << t2 / 2000000000. << "ms" << endl;
     system("pause");
     return 0;
 }
