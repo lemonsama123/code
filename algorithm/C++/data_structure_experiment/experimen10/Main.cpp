@@ -7,7 +7,7 @@ int n;
 int a[N], b[N];
 int temp[N];
 
-void mergeSort(int q[], int l, int r) { //�鲢����
+void mergeSort(int q[], int l, int r) { //?��????
     if (l >= r) {
         return;
     }
@@ -35,7 +35,7 @@ void mergeSort(int q[], int l, int r) { //�鲢����
     }
 }
 
-void quickSort(int q[], int l, int r) { //��������
+void quickSort(int q[], int l, int r) { //????????
     if (l >= r) {
         return;
     }
@@ -53,7 +53,7 @@ void quickSort(int q[], int l, int r) { //��������
     quickSort(q, j + 1, r);
 }
 
-void randomArray(int n, int l, int r) {//�����������
+void randomArray(int n, int l, int r) {//???????????
 	srand(time(0));  
 	for(int i = 0; i < n; i++){
         int x = rand() % (r - l + 1) + l;
@@ -61,7 +61,7 @@ void randomArray(int n, int l, int r) {//�����������
 	}
 }
 
-void printArray(int *a, int n, ofstream& outfile) { //��ӡ����
+void printArray(int *a, int n, ofstream& outfile) { //???????
     cout << "[";    
 	for(int i = 0; i < n; i++) {
         outfile << a[i] << " ";
@@ -86,8 +86,8 @@ int main() {
         finish = clock();
         t2 += (double)(finish - start) / CLOCKS_PER_SEC;
     }
-    cout << "��������ƽ��ʱ�䣺" << t1 / 2000000000. << "ms" << endl;
-    cout << "�鲢����ƽ��ʱ�䣺" << t2 / 2000000000. << "ms" << endl;
+    cout << "??????????????" << t1 / 2000000000. << "ms" << endl;
+    cout << "?��??????????" << t2 / 2000000000. << "ms" << endl;
     system("pause");
     return 0;
 }
