@@ -1,35 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6396d43-8184-4e47-86d3-dbf588d24c3f" name="Changes" comment="" />
+    <list default="true" id="a6396d43-8184-4e47-86d3-dbf588d24c3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../corejava/gutenberg/alice30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/gutenberg/crsto10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/v1ch03/BigIntegerTest/BigIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/v1ch03/BigIntegerTest/BigIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/v1ch03/CompoundInterest/CompoundInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/v1ch03/CompoundInterest/CompoundInterest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/v1ch03/FirstSample/FirstSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/v1ch03/FirstSample/FirstSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/v1ch03/InputTest/InputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/v1ch03/InputTest/InputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/v1ch03/LotteryArray/LotteryArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/v1ch03/LotteryArray/LotteryArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/v1ch03/LotteryDrawing/LotteryDrawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/v1ch03/LotteryDrawing/LotteryDrawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/v1ch03/LotteryOdds/LotteryOdds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/v1ch03/LotteryOdds/LotteryOdds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/v1ch03/Retirement/Retirement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/v1ch03/Retirement/Retirement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../corejava/v1ch03/Retirement2/Retirement2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/corejava/v1ch03/Retirement2/Retirement2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/gutenberg/alice30.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/gutenberg/crsto10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch02/FXImageViewer/cay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch02/FXImageViewer/duke.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch02/ImageViewer/cay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch02/ImageViewer/cup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch02/ImageViewer/duke.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch05/ResourceTest.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch05/corejava/title.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch05/resources/ResourceTest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch05/resources/about.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch05/resources/data/about.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch06/META-INF/services/serviceLoader.Cipher" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch07/cay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch07/cup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch07/duke.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch09/cay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch09/cup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch09/duke.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch09/sieve/sieve.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch10/blue-ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch10/cay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch10/cup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch10/duke.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch10/red-ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch10/yellow-ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/ace.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/blue-ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/copy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/cut.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/exit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/jack.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/king.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/nine.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/palette.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/paste.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/queen.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/red-ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/ten.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch11/yellow-ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/css/dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/css/metal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/css/scene1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/css/scene2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/dialogs/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/fancy/moonlanding.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/font/world.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/fxml/dialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/menu/copy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/menu/cut.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/menu/help.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/menu/options.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v1ch13fx/menu/paste.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch01/cities.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch02/employee.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch02/employee2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch02/employee3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch02/objectStream/employee.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch02/textFile/employee.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/dom/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/drawing1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/drawing2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/fontdialog-schema.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/fontdialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/gridbag.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/gridbag.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/read/config-schema.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/read/config.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/read/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/read/config.xsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/read/objects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/transform/employee.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/transform/makehtml.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/transform/makeprop.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/xpath/bugs.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/xpath/catalog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/xpath/fontdialog.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/xpath/gridbag.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/xpath/xhtml-lat1.ent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/xpath/xhtml-special.ent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/xpath/xhtml-symbol.ent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch03/xpath/xhtml1-strict.dtd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch04/activation-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch04/client/cup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch04/client/fileupload.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch04/client/json.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch04/client/post.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch04/javax.mail.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch04/mail/mail.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch04/mail/message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch04/post/post.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch05/Authors.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch05/Books.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch05/BooksAuthors.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch05/Publishers.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch05/database.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch05/derby.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch07/retire/RetireStrings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch07/retire/RetireStrings_de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch07/retire/RetireStrings_zh.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch08/buttons1/Renjin.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch08/buttons1/groovy.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch08/buttons1/init.Renjin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch08/buttons1/init.sisc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch08/buttons1/nashorn.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch08/buttons1/sisc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch08/buttons2/action.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch08/bytecodeAnnotations/EntryLoggingAgent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch08/bytecodeAnnotations/EntryLoggingAgent.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/commons-csv-1.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/countries.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/gson-2.8.4-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/gson-2.8.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/javax.activation-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/javax.json-1.2-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/javax.json-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/javax.json.bind-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/jaxb-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/jaxb-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/jaxb-impl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/jsonp-jaxrs-1.2-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch09/yasson.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/Calculator.caesar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/CalculatorFrame.caesar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/CalculatorPanel$1.caesar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/CalculatorPanel$CommandAction.caesar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/CalculatorPanel$InsertAction.caesar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/CalculatorPanel.caesar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/auth/AuthTest.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/auth/action.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/auth/jaas.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/auth/login.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/hash/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/jaas/JAASTest.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/jaas/jaas.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/jaas/password.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/permissions/PermissionTest.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch10/verifier/VerifierTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/cj2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/cj8v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/clouds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/imageIO/e-mail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Earth.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Jupiter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Mars.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Mercury.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Moons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Neptune.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Pluto.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Saturn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Uranus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableCellRender/Venus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableRowColumn/Earth.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableRowColumn/Jupiter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableRowColumn/Mars.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableRowColumn/Mercury.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableRowColumn/Neptune.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableRowColumn/Pluto.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableRowColumn/Saturn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableRowColumn/Uranus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/tableRowColumn/Venus.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/treeRender/blue-ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/treeRender/red-ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch11/treeRender/yellow-ball.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch12/employee/Employee.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch12/helloNative/HelloNative.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch12/helloNative/HelloNative.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch12/invocation/InvocationTest.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch12/printf1/Printf1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch12/printf2/Printf2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch12/printf3/Printf3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch12/printf4/Printf4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-learn/corejava/v2ch12/win32reg/Win32RegKey.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../markdown/miniprogram/towxml" beforeDir="false" afterPath="$PROJECT_DIR$/../markdown/miniprogram/towxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AHy8mgI8HLkkYImLOlIhy7kOj1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/System/Desktop/java-learn/java-learn/src&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/System/Desktop/myFile/code/code/java-learn",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\System\Desktop\java-learn\java-learn\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\System\Desktop\myFile\code\code\java-learn\src\corejava" />
+      <recent name="D:\System\Desktop\myFile\code\code\java-learn\src\corejava\gutenberg" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="corejava" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FirstSample">
+    <configuration name="FirstSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.v1ch03.FirstSample.FirstSample" />
+      <module name="java-learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.v1ch03.FirstSample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java-learn" />
@@ -39,6 +252,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstSample" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -52,10 +266,22 @@
       <option name="presentableId" value="Default" />
       <updated>1654680648782</updated>
       <workItem from="1654680650330" duration="39000" />
+      <workItem from="1654680792909" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
