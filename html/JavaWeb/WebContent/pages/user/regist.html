@@ -4,6 +4,50 @@
 <meta charset="UTF-8">
 <title>尚硅谷会员注册页面</title>
 <link type="text/css" rel="stylesheet" href="../../static/css/style.css" >
+	<script type="text/javascript" src="../../static/script/jquery-1.7.2.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$("#sub_btn").click(function () {
+				let usernameText = $("#username").val();
+				let usernamePatt = /^\w{5,12}$/;
+				if (!usernamePatt.test(usernameText)) {
+					$("span.errorMsg").text("用户不合法");
+					return false;
+				}
+				$("span.errorMsg").text("");
+
+				let passwordText = $("#password").val();
+				let passwordPatt = /^\w{5,12}$/;
+				if (!passwordPatt.test(passwordText)) {
+					$("span.errorMsg").text("密码不合法");
+					return false;
+				}
+				$("span.errorMsg").text("");
+
+				let repwdText = $("#repwd").val();
+				if (repwdText != passwordText) {
+					$("span.errorMsg").text("确认密码和密码不一致");
+					return false;
+				}
+				$("span.errorMsg").text("");
+
+				let emailText = $("#email").val();
+				let emailPatt = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+				if (!emailPatt.test(emailText)) {
+					$("span.errorMsg").text("邮箱不合法");
+					return false;
+				}
+				$("span.errorMsg").text("");
+
+				let codeText = $.trim($("#code").val());
+				if (codeText == null || codeText == "") {
+					$("span.errorMsg").text("验证码不能为空");
+					return false;
+				}
+				$("span.errorMsg").text("");
+			});
+		});
+	</script>
 <style type="text/css">
 	.login_form{
 		height:420px;
@@ -54,7 +98,6 @@
 									<br />
 									<br />
 									<input type="submit" value="注册" id="sub_btn" />
-									
 								</form>
 							</div>
 							
