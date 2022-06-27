@@ -10,7 +10,7 @@
         <value>九阳神功</value>
     </util:list>
 
-    <bean id="book" class="com.lemon.spring5.collectiontype.Book">
+    <bean id="book" class="com.lemon.spring5.collectiontype.Book" scope="prototype">
         <property name="list" ref="bookList"></property>
     </bean>
 </beans>
