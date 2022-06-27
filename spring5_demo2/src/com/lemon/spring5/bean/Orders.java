@@ -14,10 +14,10 @@ public class Orders {
     }
 
     public void init() {
-        System.out.println("3. 初始化方法");
+        System.out.println("4. 初始化方法");
     }
 
     public void destroy() {
-        System.out.println("5. 销毁方法");
+        System.out.println("7. 销毁方法");
     }
 }

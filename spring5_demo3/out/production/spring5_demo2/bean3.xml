@@ -3,10 +3,5 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="orders" class="com.lemon.spring5.bean.Orders" init-method="init" destroy-method="destroy">
-        <property name="oname" value="手机"></property>
-    </bean>
-
-    <bean id="myBeanPost" class="com.lemon.spring5.bean.MyBeanPost"></bean>
-
+    <bean id="myBean" class="com.lemon.spring5.factotrybean.MyBean"></bean>
 </beans>
