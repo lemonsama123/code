@@ -3,6 +3,28 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="user" class="com.lemonsama.spring5.User"></bean>
+    <bean id="user" class="com.lemon.spring5.User"></bean>
+
+    <bean id="book" class="com.lemon.spring5.Book">
+        <property name="bname" value="易筋经"></property>
+        <property name="bauthor" value="达摩老祖"></property>
+<!--        <property name="address">-->
+<!--            <null/>-->
+<!--        </property>-->
+<!--        <property name="address" value="&lt;&lt;南京&gt;&gt;"></property>-->
+        <property name="address">
+            <value><![CDATA[<<南京1>>]]></value>
+        </property>
+    </bean>
+
+<!--    <bean id="book" class="com.lemon.spring5.Book" p:bname="易筋经" p:bauthor="达摩老祖">-->
+
+<!--    </bean>-->
+
+    <bean id="orders" class="com.lemon.spring5.Orders">
+        <constructor-arg name="oname" value="电脑"></constructor-arg>
+        <constructor-arg name="address" value="China"></constructor-arg>
+    </bean>
+
 
 </beans>

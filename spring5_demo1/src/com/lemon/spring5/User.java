@@ -1,4 +1,4 @@
-package com.lemonsama.spring5;
+package com.lemon.spring5;
 
 public class User {
 
