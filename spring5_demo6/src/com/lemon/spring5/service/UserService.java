@@ -3,8 +3,11 @@ package com.lemon.spring5.service;
 import com.lemon.spring5.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional(propagation = Propagation.REQUIRED)
 public class UserService {
 
     @Autowired
@@ -12,14 +15,8 @@ public class UserService {
 
 
     public void accountMoney() {
-        try {
             userDao.reduceMoney();
-            int i = 10 / 0;
+//            int i =  10 / 0;
             userDao.addMoney();
-        }  catch (Exception e) {
-
-        } finally {
-
-        }
     }
 }
