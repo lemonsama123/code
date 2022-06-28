@@ -2,6 +2,7 @@ package com.lemon.spring5.testdemo;
 
 import com.lemon.spring5.config.SpringConfig;
 import com.lemon.spring5.service.UserService;
+
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
