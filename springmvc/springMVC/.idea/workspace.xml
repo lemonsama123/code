@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="319e6ff9-cb4e-4a67-9c1d-cfd1fe677bff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springMVC-demo01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-demo01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../markdown/miniprogram/towxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../markdown/miniprogram/towxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo1/src/main/java/com/lemon/mvc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo01/src/main/java/com/lemon/mvc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +41,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15136719",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
@@ -59,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656471921607</updated>
-      <workItem from="1656471923577" duration="131000" />
+      <workItem from="1656471923577" duration="446000" />
     </task>
     <servers />
   </component>
