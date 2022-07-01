@@ -2,6 +2,7 @@ package com.lemon.mvc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -37,8 +38,14 @@ public class RequestMappingController {
         return "success";
     }
 
-    @RequestMapping("/**/testAnt")
+    @RequestMapping("/?/testAnt")
     public String testAnt() {
+        return "success";
+    }
+
+    @RequestMapping("/testPath/{id}")
+    public String testPath(@PathVariable("id")Integer id) {
+        System.out.println(id);
         return "success";
     }
 }

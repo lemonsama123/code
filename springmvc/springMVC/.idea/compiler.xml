@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springMVC-demo2" />
+        <module name="springMVC-demo3" />
         <module name="springMCV-demo2" />
       </profile>
     </annotationProcessing>
