@@ -6,14 +6,16 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.Map;
 
 /**
  * @Classname ScopeController
  * @Description TODO
  * @Date 2022/7/1 12:37
- * @Created by yj
+ * @Created yj
  */
 @Controller
 public class ScopeController {
@@ -47,6 +49,19 @@ public class ScopeController {
     @RequestMapping("/testModelMap")
     public String testModelMap(ModelMap modelMap) {
         modelMap.addAttribute("testRequestScope", "hello, modelMap");
+        return "success";
+    }
+
+    @RequestMapping("/testSession")
+    public String testSession(HttpSession session) {
+        session.setAttribute("testSessionScope", "hello, session");
+        return "success";
+    }
+
+    @RequestMapping("/testApplication")
+    public String testApplication(HttpSession session) {
+        ServletContext servletContext = session.getServletContext();
+        servletContext.setAttribute("testApplicationScope", "hello, application");
         return "success";
     }
 }

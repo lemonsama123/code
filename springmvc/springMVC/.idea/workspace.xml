@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="springMVC-demo3:war exploded" />
+      <artifact name="springMVC-jsp:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,15 +10,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="319e6ff9-cb4e-4a67-9c1d-cfd1fe677bff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/controller/ScopeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/resources/springMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/templates/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/controller/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/templates/test_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-jsp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-jsp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-jsp/src/main/java/com/lemon/mvc/controller/JspController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-jsp/src/main/java/com/lemon/mvc/controller/TestJspController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-jsp/src/main/resources/springMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-jsp/src/main/webapp/WEB-INF/templates/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-jsp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-jsp/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../markdown/miniprogram/towxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../markdown/miniprogram/towxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/controller/ScopeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/controller/ScopeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/resources/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/templates/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/target/classes/com/lemon/mvc/controller/ScopeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/target/classes/com/lemon/mvc/controller/ScopeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/target/classes/com/lemon/mvc/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/target/classes/com/lemon/mvc/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/target/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/target/classes/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/classes/com/lemon/mvc/controller/ScopeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/classes/com/lemon/mvc/controller/ScopeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/classes/com/lemon/mvc/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/classes/com/lemon/mvc/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/classes/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo3/target/springMCV-demo2-1.0-SNAPSHOT/WEB-INF/templates/success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +46,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/controller/ScopeController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/springMVC-demo3/src/main/java/com/lemon/mvc/controller/TestController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/templates/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/templates/success.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/springMVC-demo3/src/main/webapp/WEB-INF/web.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -94,7 +120,7 @@
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="springMVC-demo3:war exploded">
+        <artifact name="springMVC-jsp:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/springMVC" />
           </settings>
@@ -174,7 +200,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="springMVC-demo3:war exploded" />
+          <artifact name="springMVC-jsp:war exploded" />
         </option>
       </method>
     </configuration>
@@ -192,7 +218,7 @@
       <workItem from="1656476259496" duration="191000" />
       <workItem from="1656476462408" duration="8832000" />
       <workItem from="1656583580213" duration="5525000" />
-      <workItem from="1656640278514" duration="8005000" />
+      <workItem from="1656640278514" duration="18290000" />
     </task>
     <servers />
   </component>
