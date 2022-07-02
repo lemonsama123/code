@@ -10,15 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="319e6ff9-cb4e-4a67-9c1d-cfd1fe677bff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springMVC-annotation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC-annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC-annotation/src/main/java/com/lemon/mvc/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC-annotation/src/main/java/com/lemon/mvc/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC-annotation/src/main/java/com/lemon/mvc/config/WebInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-annotation/src/main/java/com/lemon/mvc/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-annotation/src/main/java/com/lemon/mvc/interceptor/TestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-annotation/src/main/webapp/WEB-INF/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springMVC-annotation/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../markdown/miniprogram/towxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../markdown/miniprogram/towxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-annotation/src/main/java/com/lemon/mvc/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-annotation/src/main/java/com/lemon/mvc/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-annotation/target/classes/com/lemon/mvc/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-annotation/target/classes/com/lemon/mvc/config/WebConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-annotation/target/springMCV-annotation-1.0-SNAPSHOT/WEB-INF/classes/com/lemon/mvc/config/WebConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-annotation/target/springMCV-annotation-1.0-SNAPSHOT/WEB-INF/classes/com/lemon/mvc/config/WebConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +31,9 @@
       <list>
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
+        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -98,6 +100,7 @@
       <recent name="D:\System\Desktop\myFile\code\code\springmvc\springMVC\springMVC-rest\src\main\webapp\static\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\System\Desktop\myFile\code\code\springmvc\springMVC\springMVC-annotation\src\main\webapp\WEB-INF\templates" />
       <recent name="D:\System\Desktop\myFile\code\code\springmvc\springMVC\springMVC-rest\src\main\webapp" />
       <recent name="D:\System\Desktop\myFile\code\code\springmvc\springMVC\springMVC-demo1\src\main\webapp\WEB-INF\templates" />
       <recent name="D:\System\Desktop\myFile\code\code\springmvc\springMVC\springMVC-demo1\src\main\webapp\WEB-INF" />
@@ -208,7 +211,7 @@
       <workItem from="1656476462408" duration="8832000" />
       <workItem from="1656583580213" duration="5525000" />
       <workItem from="1656640278514" duration="29232000" />
-      <workItem from="1656729593367" duration="22150000" />
+      <workItem from="1656729593367" duration="24860000" />
     </task>
     <servers />
   </component>
