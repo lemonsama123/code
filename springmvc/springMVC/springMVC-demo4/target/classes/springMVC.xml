@@ -39,4 +39,12 @@
     <mvc:interceptors>
         <bean class="com.lemon.mvc.interceptors.FirstInterceptor"></bean>
     </mvc:interceptors>
+
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <prop key="java.lang.ArithmeticException">error</prop>
+            </props>
+        </property>
+    </bean>
 </beans>
