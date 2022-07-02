@@ -10,17 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="319e6ff9-cb4e-4a67-9c1d-cfd1fe677bff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/springMVC-demo4/src/main/java/com/lemon/mvc/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springMVC-demo4/src/main/java/com/lemon/mvc/interceptors/FirstInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../markdown/miniprogram/towxml" beforeDir="false" afterPath="$PROJECT_DIR$/../../markdown/miniprogram/towxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo4/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/src/main/resources/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo4/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo4/src/main/webapp/WEB-INF/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/src/main/webapp/WEB-INF/templates/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo4/target/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/target/classes/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo4/target/springMCV-demo4-1.0-SNAPSHOT/WEB-INF/classes/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/target/springMCV-demo4-1.0-SNAPSHOT/WEB-INF/classes/springMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo4/target/springMCV-demo4-1.0-SNAPSHOT/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/target/springMCV-demo4-1.0-SNAPSHOT/WEB-INF/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springMVC-demo4/target/springMCV-demo4-1.0-SNAPSHOT/WEB-INF/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/target/springMCV-demo4-1.0-SNAPSHOT/WEB-INF/templates/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo4/src/main/java/com/lemon/mvc/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/src/main/java/com/lemon/mvc/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo4/target/classes/com/lemon/mvc/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/target/classes/com/lemon/mvc/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springMVC-demo4/target/springMCV-demo4-1.0-SNAPSHOT/WEB-INF/classes/com/lemon/mvc/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springMVC-demo4/target/springMCV-demo4-1.0-SNAPSHOT/WEB-INF/classes/com/lemon/mvc/controller/TestController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +204,7 @@
       <workItem from="1656476462408" duration="8832000" />
       <workItem from="1656583580213" duration="5525000" />
       <workItem from="1656640278514" duration="29232000" />
-      <workItem from="1656729593367" duration="16280000" />
+      <workItem from="1656729593367" duration="17950000" />
     </task>
     <servers />
   </component>
