@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springMVC-demo2" />
         <module name="springMCV-demo2" />
         <module name="springMVC-jsp" />
         <module name="springMVC-demo3" />
-        <module name="springMVC-rest" />
         <module name="springMVC-demo4" />
+        <module name="springMVC-demo2" />
+        <module name="springMVC-annotation" />
+        <module name="springMVC-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springMCV-demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/springMVC-annotation" />
     <file type="web" url="file://$PROJECT_DIR$/springMVC-demo1" />
     <file type="web" url="file://$PROJECT_DIR$/springMVC-demo3" />
     <file type="web" url="file://$PROJECT_DIR$/springMVC-demo4" />
@@ -19,6 +20,7 @@
         <option value="$PROJECT_DIR$/springMVC-rest/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC-demo5/pom.xml" />
         <option value="$PROJECT_DIR$/springMVC-demo4/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC-annotation/pom.xml" />
       </list>
     </option>
   </component>
