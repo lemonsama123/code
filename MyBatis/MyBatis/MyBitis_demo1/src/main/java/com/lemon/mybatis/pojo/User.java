@@ -1,4 +1,4 @@
-package com.lemon.mybitis.pojo;
+package com.lemon.mybatis.pojo;
 
 /**
  * @Classname User
