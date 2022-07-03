@@ -10,4 +10,15 @@
         select * from t_user where username like "%"#{username}"%"
     </select>
 
+    <delete id="deleteMore">
+        delete from t_user where id in (${ids})
+    </delete>
+
+    <select id="getUserByTableName" resultType="User">
+        select * from ${tableName}
+    </select>
+
+    <insert id="insertUser" useGeneratedKeys="true" keyProperty="id">
+        insert into t_user values(null,#{username},#{password},#{age},#{sex},#{email})
+    </insert>
 </mapper>

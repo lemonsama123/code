@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.lemon.mybatis.test.ParameterMapperTest
+Test set: com.lemon.mybatis.test.SQLMapperTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.924 sec
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 sec

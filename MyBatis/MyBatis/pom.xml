@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>MyBitis_demo1</module>
         <module>MyBatis_demo2</module>
+        <module>MyBatis_demo3</module>
     </modules>
 
     <properties>
