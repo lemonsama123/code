@@ -61,5 +61,5 @@ public class ParameterMapperTest {
         User user = mapper.checkLoginByParam("张三", "123456");
         System.out.println(user);
     }
-    
+
 }
