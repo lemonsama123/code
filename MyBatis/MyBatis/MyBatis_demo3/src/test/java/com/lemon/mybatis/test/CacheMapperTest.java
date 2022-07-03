@@ -1,7 +1,6 @@
 package com.lemon.mybatis.test;
 
 import com.lemon.mybatis.mapper.CacheMapper;
-import com.lemon.mybatis.mapper.EmpMapper;
 import com.lemon.mybatis.pojo.Emp;
 import com.lemon.mybatis.utils.SqlSessionUtils;
 import org.apache.ibatis.io.Resources;

@@ -5,7 +5,7 @@
 <mapper namespace="com.lemon.mybatis.mapper.CacheMapper">
 
 
-    <cache/>
+    <cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
 
     <select id="getEmpById" resultType="Emp">
         select * from t_emp where eid = #{eid}
