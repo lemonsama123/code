@@ -1,5 +1,7 @@
 package com.lemon.mybatis.pojo;
 
+import java.util.List;
+
 /**
  * @Classname Dept
  * @Description TODO
@@ -11,6 +13,8 @@ public class Dept {
     private Integer did;
 
     private String deptName;
+
+    private List<Emp> emps;
 
     public Dept() {
     }
@@ -36,12 +40,20 @@ public class Dept {
         this.deptName = deptName;
     }
 
+    public List<Emp> getEmps() {
+        return emps;
+    }
+
+    public void setEmps(List<Emp> emps) {
+        this.emps = emps;
+    }
+
     @Override
     public String toString() {
         return "Dept{" +
                 "did=" + did +
                 ", deptName='" + deptName + '\'' +
+                ", emps=" + emps +
                 '}';
     }
-
 }

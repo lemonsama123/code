@@ -61,4 +61,8 @@
         select *  from t_emp where eid = #{eid}
     </select>
 
+
+    <select id="getDeptAndEmpByStepTwo" resultType="Emp">
+        select * from t_emp where did = #{did}
+    </select>
 </mapper>
