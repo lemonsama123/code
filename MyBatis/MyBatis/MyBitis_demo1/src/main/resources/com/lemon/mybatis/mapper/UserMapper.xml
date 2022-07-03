@@ -16,11 +16,11 @@
         delete from t_user where id = 5;
     </delete>
 
-    <select id="getUserById" resultType="com.lemon.mybatis.pojo.User">
+    <select id="getUserById" resultType="User">
         select * from t_user where id = 4;
     </select>
 
-    <select id="getAllUser" resultType="com.lemon.mybatis.pojo.User">
+    <select id="getAllUser" resultType="User">
         select * from t_user;
     </select>
 </mapper>

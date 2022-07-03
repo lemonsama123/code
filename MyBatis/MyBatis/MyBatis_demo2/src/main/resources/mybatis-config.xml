@@ -5,7 +5,7 @@
 <configuration>
 
     <properties resource="jdbc.properties"/>
-
+    
     <typeAliases>
         <package name="com.lemon.mybatis.pojo"/>
     </typeAliases>
@@ -21,8 +21,8 @@
             </dataSource>
         </environment>
     </environments>
+
     <mappers>
-<!--        <mapper resource="mappers/UserMapper.xml"/>-->
         <package name="com.lemon.mybatis.mapper"/>
     </mappers>
 </configuration>
