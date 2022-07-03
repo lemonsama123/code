@@ -7,4 +7,26 @@
     <select id="getAllUser" resultType="User" >
         select * from t_user
     </select>
+
+    <!--    getUserByUsername(String username)-->
+    <select id="getUserByUsername" resultType="User">
+        select * from t_user where username = '${username}'
+    </select>
+
+    <!--    User checkLogin(String username, String password);-->
+    <select id="checkLogin" resultType="User">
+        select * from t_user where username = #{arg0} and password = #{arg1}
+    </select>
+
+    <select id="checkLoginByMap" resultType="User">
+        select * from t_user where username = #{username} and password = #{password}
+    </select>
+
+    <insert id="insertUser">
+        insert into t_user values (null,#{username},#{password},#{age},#{sex},#{email})
+    </insert>
+
+    <select id="checkLoginByParam" resultType="User">
+        select * from t_user where username = #{username} and password = #{password}
+    </select>
 </mapper>
