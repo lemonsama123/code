@@ -35,5 +35,5 @@
     <select id="getDeptAndEmpByStepOne" resultMap="deptAndEmpByStepResultMap">
         select * from t_dept where did = #{did}
     </select>
-    
+
 </mapper>
