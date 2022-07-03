@@ -12,4 +12,16 @@
         select * from t_user;
     </select>
 
+
+    <select id="getCount" resultType="java.lang.Integer">
+        select count(*) from t_user
+    </select>
+
+    <select id="getUserByIdToMap" resultType="Map">
+        select * from t_user where id = #{id}
+    </select>
+
+    <select id="getAllUserToMap" resultType="Map">
+        select * from t_user
+    </select>
 </mapper>
