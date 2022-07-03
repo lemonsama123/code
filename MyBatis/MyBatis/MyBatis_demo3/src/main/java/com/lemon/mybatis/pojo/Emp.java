@@ -1,12 +1,14 @@
 package com.lemon.mybatis.pojo;
 
+import java.io.Serializable;
+
 /**
  * @Classname Emp
  * @Description TODO
  * @Date 2022/7/3 16:21
  * @Created yj
  */
-public class Emp {
+public class Emp implements Serializable {
 
     private Integer eid;
 
