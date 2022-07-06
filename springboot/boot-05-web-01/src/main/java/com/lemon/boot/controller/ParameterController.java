@@ -1,5 +1,6 @@
 package com.lemon.boot.controller;
 
+import com.lemon.boot.bean.Person;
 import org.springframework.boot.web.server.Cookie;
 import org.springframework.web.bind.annotation.*;
 
@@ -49,5 +50,10 @@ public class ParameterController {
         map.put("low", low);
         map.put("brand", brand);
         return map;
+    }
+
+    @PostMapping("/saveuser")
+    public Person saveUser(Person person) {
+        return person;
     }
 }
