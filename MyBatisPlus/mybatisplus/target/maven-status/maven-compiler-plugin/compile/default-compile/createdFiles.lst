@@ -1,0 +1,8 @@
+com\lemon\mybatisplus\pojo\Product.class
+com\lemon\mybatisplus\MybatisplusApplication.class
+com\lemon\mybatisplus\service\impl\UserServiceImpl.class
+com\lemon\mybatisplus\pojo\User.class
+com\lemon\mybatisplus\mapper\ProductMapper.class
+com\lemon\mybatisplus\config\MyBatisPlusConfig.class
+com\lemon\mybatisplus\mapper\UserMapper.class
+com\lemon\mybatisplus\service\UserService.class

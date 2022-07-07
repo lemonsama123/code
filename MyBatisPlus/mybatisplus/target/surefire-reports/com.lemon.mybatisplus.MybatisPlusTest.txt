@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.lemon.mybatisplus.MybatisPlusTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.134 s <<< FAILURE! - in com.lemon.mybatisplus.MybatisPlusTest
+testDeleteByMap  Time elapsed: 0.076 s  <<< ERROR!
+org.springframework.jdbc.BadSqlGrammarException: 
+
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'name' in 'where clause'
+### The error may exist in com/lemon/mybatisplus/mapper/UserMapper.java (best guess)
+### The error may involve com.lemon.mybatisplus.mapper.UserMapper.deleteByMap-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE user SET is_deleted=1  WHERE name = ?   AND age = ?     AND is_deleted=0
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'name' in 'where clause'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'name' in 'where clause'
+	at com.lemon.mybatisplus.MybatisPlusTest.testDeleteByMap(MybatisPlusTest.java:54)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'name' in 'where clause'
+	at com.lemon.mybatisplus.MybatisPlusTest.testDeleteByMap(MybatisPlusTest.java:54)
+
