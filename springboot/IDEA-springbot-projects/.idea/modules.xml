@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/001-springboot-first/001-springboot-first.iml" filepath="$PROJECT_DIR$/001-springboot-first/001-springboot-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IDEA-springbot-projects.iml" filepath="$PROJECT_DIR$/IDEA-springbot-projects.iml" />
+    </modules>
+  </component>
+</project>
